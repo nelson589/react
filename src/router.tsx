@@ -8,6 +8,7 @@ import Team from "./pages/Team";
 import Predict from "./pages/Predict";
 
 
+
 export default function Router() {
   return (
     <BrowserRouter>
@@ -19,6 +20,7 @@ export default function Router() {
         <Route path="/analysis" element={<Analysis />} />
         <Route path="/team" element={<Team />} />
         <Route path="/predict" element={<Predict />} />
+
 
       </Routes>
     </BrowserRouter>

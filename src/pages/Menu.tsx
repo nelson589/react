@@ -14,13 +14,13 @@ export default function Menu() {
       <button onClick={() => navigate("/analysis")} className="bg-white p-6 shadow rounded-lg text-center">
         Análisis
       </button>
-      <button onClick={() => navigate("/team")} className="bg-white p-6 shadow rounded-lg text-center">
+      
 
       <button onClick={() => navigate("/predict")} className="bg-white p-6 shadow rounded-lg text-center">
         Predicción
       </button>
 
-
+      <button onClick={() => navigate("/team")} className="bg-white p-6 shadow rounded-lg text-center">
         Integrantes
       </button>
       <button onClick={() => navigate("/")} className="bg-white p-6 shadow rounded-lg text-center">

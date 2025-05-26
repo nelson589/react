@@ -1,9 +1,9 @@
 import { useNavigate } from "react-router-dom";
 const members = [
-    { name: "Juan Pérez", major: "Ingeniería Industrial", img: "/images/juan.jpg" },
-    { name: "Ana López", major: "Ingeniería Industrial", img: "/images/ana.jpg" },
-    { name: "Carlos Ruiz", major: "Ingeniería Industrial", img: "/images/carlos.jpg" },
-    { name: "Luisa Gómez", major: "Ingeniería Industrial", img: "/images/luisa.jpg" },
+    { name: "Felipe Camelo", major: "Ingeniería Industrial", img: "src/assets/images/pipefoto.jpeg" },
+    { name: "Sergio Espejo", major: "Ingeniería Industrial", img: "src/assets/images/chechofoto.jpeg" },
+    { name: "Nicolas Ospina", major: "Ingeniería Industrial", img: "src/assets/images/nicofoto.jpeg" },
+    { name: "Nelson Salamanca León", major: "Ingeniería Industrial", img: "src/assets/images/nelsonfoto.jpeg" },
   ];
   
   export default function Team() {

@@ -6,10 +6,10 @@ export default function Menu() {
   return (
     <div className="grid grid-cols-2 gap-4 h-screen p-8 bg-gray-100">
       <button onClick={() => navigate("/graph1")} className="bg-white p-6 shadow rounded-lg text-center">
-        Gráfico 1
+        Matriz 
       </button>
       <button onClick={() => navigate("/graph2")} className="bg-white p-6 shadow rounded-lg text-center">
-        Gráfico 2
+        Curva ROC
       </button>
 
       <button onClick={() => navigate("/analysis")} className="bg-white p-6 shadow rounded-lg text-center">
@@ -24,7 +24,7 @@ export default function Menu() {
       <button onClick={() => navigate("/team")} className="bg-white p-6 shadow rounded-lg text-center">
         Integrantes
       </button>
-      
+
       <button onClick={() => navigate("/")} className="bg-white p-6 shadow rounded-lg text-center">
         volver
         </button>

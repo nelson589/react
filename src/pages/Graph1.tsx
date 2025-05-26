@@ -8,8 +8,9 @@ export default function Graph1() {
         <p>Este gráfico representa ... (tu explicación aquí)</p>
         <button onClick={() => navigate("/menu")} className="bg-white p-6 shadow rounded-lg text-center">
         volver
-        </button>
+      </button>
       </div>
     );
   }
+  
   

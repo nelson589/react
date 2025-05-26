@@ -11,6 +11,7 @@ export default function Menu() {
       <button onClick={() => navigate("/graph2")} className="bg-white p-6 shadow rounded-lg text-center">
         Gráfico 2
       </button>
+
       <button onClick={() => navigate("/analysis")} className="bg-white p-6 shadow rounded-lg text-center">
         Análisis
       </button>
@@ -23,6 +24,7 @@ export default function Menu() {
       <button onClick={() => navigate("/team")} className="bg-white p-6 shadow rounded-lg text-center">
         Integrantes
       </button>
+      
       <button onClick={() => navigate("/")} className="bg-white p-6 shadow rounded-lg text-center">
         volver
         </button>
